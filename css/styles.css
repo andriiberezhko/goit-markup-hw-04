@@ -181,7 +181,15 @@ ul {
 .hero {
   text-align: center;
 
-  background-color: #2f303a;
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/bg-hero.jpg);
+  background-repeat: no-repeat;
+  /* background-position: center;
+  background-color: #2f303a; */
   margin-top: 0px;
 }
 .hero-title {
@@ -210,6 +218,9 @@ ul {
   letter-spacing: 0.06em;
   color: #ffffff;
   cursor: pointer;
+}
+.hero-button:hover {
+  background-color: #188ce8;
 }
 
 /* Секция наши качества */
