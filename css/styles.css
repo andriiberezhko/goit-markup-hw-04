@@ -406,8 +406,6 @@ ul {
 }
 .clients .list {
   display: flex;
-
-  /* justify-content: center; */
 }
 .clients li {
   height: 92px;
